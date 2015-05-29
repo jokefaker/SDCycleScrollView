@@ -1,0 +1,27 @@
+PODS:
+  - SDCycleScrollView (0.1.0):
+    - SDWebImage (~> 3.7.2)
+    - TAPageControl (~> 0.2.0)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - TAPageControl (0.2.0)
+
+DEPENDENCIES:
+  - SDCycleScrollView (from `https://github.com/jokefaker/SDCycleScrollView.git`)
+
+EXTERNAL SOURCES:
+  SDCycleScrollView:
+    :git: https://github.com/jokefaker/SDCycleScrollView.git
+
+CHECKOUT OPTIONS:
+  SDCycleScrollView:
+    :commit: 3ee6d94a7982497721b085009aaff1b053569fe5
+    :git: https://github.com/jokefaker/SDCycleScrollView.git
+
+SPEC CHECKSUMS:
+  SDCycleScrollView: 75a85c9453634887561309e7f66f9a4e006b2434
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  TAPageControl: fd11d779bbb5c2464ca2f55dde9e288213ea8a9b
+
+COCOAPODS: 0.35.0
