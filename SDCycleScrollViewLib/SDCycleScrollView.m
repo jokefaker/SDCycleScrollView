@@ -37,7 +37,7 @@ NSString * const ID = @"cycleCell";
 @property (nonatomic, strong) NSMutableArray *imagesGroup;
 @property (nonatomic, strong) NSTimer *timer;
 @property (nonatomic, assign) NSInteger totalItemsCount;
-@property (nonatomic, weak) TAPageControl *pageControl;
+@property (nonatomic, weak, readwrite) TAPageControl *pageControl;
 
 @end
 

@@ -51,7 +51,7 @@ typedef enum {
 @property (nonatomic, strong) UIColor *titleLabelBackgroundColor;
 @property (nonatomic, assign) CGFloat titleLabelHeight;
 
-@property (nonatomic, weak) TAPageControl *pageControl;
+@property (nonatomic, weak, readonly) TAPageControl *pageControl;
 
 + (instancetype)cycleScrollViewWithFrame:(CGRect)frame imagesGroup:(NSArray *)imagesGroup;
 
