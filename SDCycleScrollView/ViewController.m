@@ -58,8 +58,7 @@
     cycleScrollView2.pageControlAliment = SDCycleScrollViewPageContolAlimentRight;
     cycleScrollView2.delegate = self;
     cycleScrollView2.titlesGroup = titles;
-    cycleScrollView2.dotColor = [UIColor yellowColor]; // 自定义分页控件小圆标颜色
-    cycleScrollView2.placeholderImage = [UIImage imageNamed:@"placeholder"];
+        cycleScrollView2.placeholderImage = [UIImage imageNamed:@"placeholder"];
     [self.view addSubview:cycleScrollView2];
     
     //         --- 模拟加载延迟
