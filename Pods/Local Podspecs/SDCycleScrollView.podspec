@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.dependency "TAPageControl", "~> 0.2.0"
+  s.dependency "BlocksKit", "~> 2.2.5"
   s.dependency "SDWebImage", "~> 3.7.2"
 
 end
