@@ -26,7 +26,7 @@ typedef enum {
     SDCycleScrollViewPageContolAlimentCenter
 } SDCycleScrollViewPageContolAliment;
 
-@class SDCycleScrollView;
+@class SDCycleScrollView, TAPageControl;
 
 @protocol SDCycleScrollViewDelegate <NSObject>
 
@@ -46,13 +46,12 @@ typedef enum {
 @property (nonatomic, strong) UIImage *placeholderImage;
 @property (nonatomic, assign) SDCycleScrollViewPageContolAliment pageControlAliment; // 分页控件位置
 @property (nonatomic, assign) CGSize pageControlDotSize; // 分页控件小圆标大小
-@property (nonatomic, strong) UIColor *dotColor; // 分页控件小圆标颜色
 @property (nonatomic, strong) UIColor *titleLabelTextColor;
 @property (nonatomic, strong) UIFont *titleLabelTextFont;
 @property (nonatomic, strong) UIColor *titleLabelBackgroundColor;
 @property (nonatomic, assign) CGFloat titleLabelHeight;
 
-
+@property (nonatomic, weak) TAPageControl *pageControl;
 
 + (instancetype)cycleScrollViewWithFrame:(CGRect)frame imagesGroup:(NSArray *)imagesGroup;
 
